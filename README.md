@@ -24,7 +24,7 @@ VidCensor is a full-stack, automated video sanitization platform designed to aut
 
 ## Demo (Turn on the volume from the options below to listen the censored words)
 
-update link here
+https://github.com/user-attachments/assets/57611c05-e25a-43e7-8022-354394ccd971
 
 ## System Architecture
 
@@ -169,3 +169,4 @@ The source code for this project is hosted in a private repository to protect in
 * **Licensing:** The software is not currently available for public use or distribution.
 
 Please contact: [rdrishabh38@gmail.com] if you would like to connect for further discussion about your use case.
+
