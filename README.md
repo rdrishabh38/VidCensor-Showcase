@@ -131,7 +131,6 @@ The backend is a high-performance, asynchronous microservice designed to handle 
 * **Message Broker:** [Redis](https://redis.io/) (In-memory data structure store)
 * **Database:** [PostgreSQL](https://www.postgresql.org/) (Persistent task metadata storage)
 * **Object Storage:** [MinIO](https://min.io/) (S3-compatible local cloud storage simulation)
-* **ML Engine:**
 
 ### Key Features
 * **Asynchronous Processing:** Long-running tasks (transcription, remuxing) are offloaded to background workers, preventing request timeouts.
