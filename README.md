@@ -32,7 +32,7 @@ The application runs as a set of Docker containers orchestrated by `docker-compo
 
 | Service | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend** | React + Vite | Modern web UI for uploads and monitoring. |
+| **Frontend** | Vue.js + Vite | Modern web UI for uploads and monitoring. |
 | **Backend** | FastAPI | REST API managing tasks, uploads, and downloads. |
 | **Worker** | Celery + PyTorch | GPU-enabled worker for AI tasks. |
 | **Beat** | Celery Beat | Scheduler for periodic tasks (e.g., file cleanup). |
@@ -79,7 +79,7 @@ VidCensorPy/
 │   │   └── s3.py           # S3 Client Logic
 │   ├── vidcensorpy/        # Core censoring library
 │   └── tests/              # Backend tests
-├── frontend/               # React Application (Source code)
+├── frontend/               # Vue.js Application (Source code)
 ├── docker-compose.yml      # Orchestration for all services
 ├── Dockerfile.backend      # Lean API image
 ├── Dockerfile.worker       # Heavy GPU image (PyTorch/Whisper)
